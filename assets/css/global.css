@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--inter);
+  text-align: center;
+  text-decoration: none;
 }
 
 html {
@@ -13,6 +16,7 @@ html {
 :root {
   --green: hsl(75, 94%, 57%);
   --white: hsl(0, 0%, 100%);
+  --blue: hsl(228, 45%, 44%);
 
   --grey-700: hsl(0, 0%, 20%);
   --grey-800: hsl(0, 0%, 12%);

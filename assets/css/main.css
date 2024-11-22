@@ -1,17 +1,78 @@
 @charset "UTF-8";
 
-.attribution {
-  font-family: "Inter";
+body {
+  background-color: var(--grey-900);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+main#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  background-color: var(--grey-800);
+  color: var(--white);
+  box-shadow: 0px 0px 5px var(--grey-700);
+  border-radius: 5px;
+}
+
+main#content img {
+  border-radius: 50%;
+  width: 75px;
+  margin-block: 20px;
+}
+
+main#content h1 {
+  margin-block: 10px;
+  font-size: 2.2em;
+}
+
+main#content h2 {
+  margin-bottom: 10px;
   font-size: 1.2em;
-  text-align: center;
+  color: var(--green);
+  font-weight: 800;
+}
+
+main#content p {
+  margin-block: 15px;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+main#content a {
+  width: 90%;
+  height: 40px;
+  margin-block: 10px;
+  border-radius: 5px;
+  align-content: center;
+  font-size: 1.2em;
+  font-weight: 800;
+  color: var(--white);
+  background-color: var(--grey-700);
+}
+
+main#content a:hover {
+  background-color: var(--green);
+  color: var(--grey-700);
+}
+
+.attribution {
+  font-size: 1.2em;
+  color: var(--white);
 }
 
 .attribution a {
   font-weight: 600;
-  color: var(--grey-900);
-  text-decoration: none;
+  color: var(--white);
 }
 
 .attribution a:hover {
-  color: hsl(228, 45%, 44%);
+  color: var(--blue);
+  text-decoration: underline;
 }
