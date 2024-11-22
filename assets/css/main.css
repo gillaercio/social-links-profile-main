@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.attribution {
+  font-family: "Inter";
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.attribution a {
+  font-weight: 600;
+  color: var(--grey-900);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: hsl(228, 45%, 44%);
+}
